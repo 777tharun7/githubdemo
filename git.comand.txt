@@ -16,7 +16,6 @@ git basic commands
 
  ->git diff
  => know exactly what you have changed
-
  ->git ls-files 
  =>list all files available in staging area
 
@@ -25,3 +24,15 @@ git basic commands
 
 ->git rm --cached fliename 
 => you want to keep the file in your hard disk but you don't want git to track this file anymore.
+
+
+->git branch second-branch
+=>switch to second-branch
+
+->git checkout second-branch
+=>switch to second-branch
+
+->git checkout -b third-branch
+=> create and switch to third branch
+->git remote add origin URL
+ => Connect local repository to remote repository
